@@ -18,6 +18,12 @@
 .header__link {
 	color: blueviolet;
 }
+.header__link span{
+	color: green;
+}
+
+
+
 .page {
 }
 
