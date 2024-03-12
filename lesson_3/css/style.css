@@ -43,6 +43,10 @@
 	color: rgb(39, 124, 204);
 }
 
+.text-1{
+	color: goldenrod;
+}
+
 .image {
 }
 .people {
@@ -70,15 +74,19 @@
 	color: rgb(99, 69, 128);
 }
 
-.time .text{
-	color: rgb(5, 104, 190);
+.time p{
+	color: greenyellow;
+}
+
+.time p ~ p{
+	color: green;
 }
 
 .time span {
 	color: rgb(243, 149, 125)
 } 
 
-.transport p {
+.transport p + p{
 	color: blue;
 }
 
