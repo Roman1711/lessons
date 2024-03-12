@@ -1,0 +1,94 @@
+@import url("reset.css");
+
+/*--------------------------------------------------------------*/
+.wrapper {
+	color: black;
+}
+.header h1{
+	color: aqua;
+}
+.header__title span{
+	color: blue;
+}
+.title {
+	color: rgb(236, 12, 12);
+}
+.header__list {
+}
+.header__link {
+	color: blueviolet;
+}
+.page {
+}
+
+
+.block {
+}
+
+.block p {
+	color: rgb(76, 133, 114);
+}
+
+.block span{
+	color: rgb(202, 202, 97);
+}
+
+.text {
+	
+}
+
+.climate {
+}
+.climate .text{
+	color: rgb(39, 124, 204);
+}
+
+.image {
+}
+.people {
+}
+.people p {
+	color: aqua;
+}
+
+.people .title {
+	color: rgb(146, 114, 65);
+}
+.people span {
+	color: rgb(243, 149, 125)
+}
+
+.religion {
+}
+.religion span{
+	color: rgb(58, 45, 70);
+}
+.religion p{
+	color: rgb(141, 138, 138);
+}
+.religion .title {
+	color: rgb(99, 69, 128);
+}
+
+.time .text{
+	color: rgb(5, 104, 190);
+}
+
+.time span {
+	color: rgb(243, 149, 125)
+} 
+
+.transport p {
+	color: blue;
+}
+
+.transport .text{
+	color: rgb(136, 168, 168);
+}
+
+.transport span {
+	color: rgb(243, 149, 125)
+} 
+.footer {
+	color: rgb(1, 1, 170);
+}
