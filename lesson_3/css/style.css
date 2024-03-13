@@ -7,7 +7,7 @@
 .header h1{
 	color: blue;
 }
-.header__title{
+.header__title span{
 	color: aqua;
 }
 
