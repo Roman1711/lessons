@@ -5,10 +5,10 @@
 	color: black;
 }
 .header h1{
-	color: aqua;
+	color: blue;
 }
 .header__title span{
-	color: blue;
+	color: aqua;
 }
 .title {
 	color: rgb(236, 12, 12);
@@ -18,6 +18,9 @@
 .header__link {
 	color: blueviolet;
 }
+
+
+
 .header__link span{
 	color: green;
 }
@@ -84,17 +87,15 @@
 	color: greenyellow;
 }
 
-.time p ~ p{
-	color: green;
+#time-text + p {
+	color: rgb(85, 46, 46);
 }
 
 .time span {
 	color: rgb(243, 149, 125)
 } 
 
-.transport p + p{
-	color: blue;
-}
+
 
 .transport .text{
 	color: rgb(136, 168, 168);
@@ -103,6 +104,14 @@
 .transport span {
 	color: rgb(243, 149, 125)
 } 
+
+#transport-text + p {
+	color: blue;
+}
+#transport-text ~ p {
+	color: blue;
+}
+
 .footer {
 	color: rgb(1, 1, 170);
 }
