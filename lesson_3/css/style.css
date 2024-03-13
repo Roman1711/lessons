@@ -10,9 +10,12 @@
 .header__title span{
 	color: aqua;
 }
-.title {
+
+[class*="title"]{
 	color: rgb(236, 12, 12);
 }
+
+
 .header__list {
 }
 .header__link {
