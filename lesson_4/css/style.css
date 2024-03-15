@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:regular,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nokora:300,regular,700,900&display=swap");
-
-@import url("reset.css");
 @import url(fonts.css);
+@import url("reset.css");
+
 
 /*--------------------------------------------------------------*/
 body{
@@ -48,6 +48,7 @@ body{
 /*-  article-one  -------------------------------------------*/
 .article-one {
 	text-align: center;
+	font-family: "Roboto", serif;
 }
 .article-one__title {
 	font-family: "Nokora", serif;
