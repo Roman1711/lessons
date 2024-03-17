@@ -15,14 +15,10 @@ body{
 	font-size: 16px;
 }
 
-.wrapper{
-}
-
 .header {
 	font-family: "Rubik", sans-serif;
 	text-align: center;
 	line-height: 1.3;
-	
 }
 .header__title {
 	font-size: 50px;
@@ -32,8 +28,7 @@ body{
 	text-transform: uppercase;
 	text-decoration: underline;
 }
-.header__list {
-}
+
 .header__link {
 	font-size: 30px;
 	font-style: italic;
@@ -41,12 +36,7 @@ body{
 	color: rgb(94, 94, 145);
 	white-space: nowrap;
 	word-spacing: 10px;
-
 }
-
-.page {
-}
-
 
 /*-  article-one  -------------------------------------------*/
 .article-one {
@@ -59,10 +49,8 @@ body{
 	font-weight: 900;
 	color: rgb(8, 95, 95);
 	text-shadow: -2px -2px 10px rgb(245, 166, 20);
+}
 
-}
-.article-one__image {
-}
 .article-one__text {
 	font-size: 20px;
 	font-weight: 300;
@@ -78,9 +66,7 @@ body{
 	color: aqua;
 	word-spacing: 15px;
 	text-shadow: 2px -2px 10px rgb(14, 13, 13);
-
 }
-
 
 #part-1 + p {
 	color: blue;
@@ -108,7 +94,7 @@ body{
 }
 
 #part-3 {
-	font-family: "Rubik", serif;
+	font-family: "Rubik", sans-serif;
 	color: rgba(10, 10, 10, 0.5);
 	text-transform: uppercase;
 	line-height: 1.2;
@@ -116,9 +102,7 @@ body{
 	font-weight: 500;
 }
 
-
 /*----------------------------------------------------------------------*/
-
 .title{
 	font-weight: 600;
 	font-size: 40px;
@@ -127,8 +111,6 @@ body{
 .text{
 	line-height: 187%;
 }
-
-
 /*-  article-two  ------------------------------------------------------*/
 .article-two {
 	color: rgb(43, 41, 41);
@@ -136,34 +118,18 @@ body{
 .article-two__title {
 	text-align: center;
 }
-.article-two__text {
-	
-}
 
 .article-two__text span {
 	color: rgba(43, 41, 41, 0.5);
 }
 
 /*-  article-three  ------------------------------------------------------*/
-
-.article-three {
-	
-	
-}
 .article-three__sub-title{
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 140%;
 }
 
-.article-three__title {
-
-}
-.article-three__image {
-
-}
-.article-three__text {
-}
 /*-  footer  ------------------------------------------------------*/
 .footer{
 	text-align: center;
