@@ -125,8 +125,6 @@ body{
 	line-height: 120%;
 }
 .text{
-	text-align: left;
-	font-size: 16px;
 	line-height: 187%;
 }
 
@@ -149,7 +147,7 @@ body{
 /*-  article-three  ------------------------------------------------------*/
 
 .article-three {
-	text-align: center;
+	
 	
 }
 .article-three__sub-title{
@@ -162,6 +160,7 @@ body{
 
 }
 .article-three__image {
+
 }
 .article-three__text {
 }
