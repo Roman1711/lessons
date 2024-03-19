@@ -48,6 +48,7 @@ body {
 	font-size: 30px;
 	background-color: blueviolet;
 	color: aqua;
+	text-shadow: 2px 2px 1px rgb(19, 19, 18);
 }
 
 
@@ -189,6 +190,12 @@ body {
 }
 
 /*--------------------------------------------------------------*/
+
+.footer__container{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .footer__button {
 	color: aqua;
 	text-shadow: 2px 2px 1px rgb(19, 19, 18);
@@ -197,5 +204,4 @@ body {
 	display: inline-block;
 	background-color: blueviolet;
 	padding: 15px;
-	margin-bottom: 20px;
 }
