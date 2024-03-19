@@ -123,14 +123,11 @@ body {
 
 .inst__list {}
 
-.inst__list a {
-	padding: 0 4px;
-}
-
 .inst__link {
 	display: inline;
-	
-	
+}
+.inst__link img{
+	padding: 0 4px;
 }
 
 /*--------------------------------------------------------------*/
