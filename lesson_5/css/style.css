@@ -6,9 +6,9 @@
 
 
 /*--------------------------------------------------------------*/
-body{
+body {
 	font-family: "Proxima Nova", sans-serif;
-	color : #2B2929;
+	color: #2B2929;
 	font-weight: 400;
 	font-size: 16px;
 	background: rgba(30, 40, 50, 0.05);
@@ -16,7 +16,7 @@ body{
 
 
 [class*="__container"] {
-	max-width: 1070px; 
+	max-width: 1070px;
 	margin: 0px auto;
 	padding: 0 20px;
 }
@@ -26,18 +26,16 @@ body{
 	overflow: hidden;
 	min-height: 100%;
 }
+
 /*--------------------------------------------------------------*/
 
-.header {
-}
-.header__container {
-}
-.header__items {
-	
+.header {}
 
-}
+.header__container {}
 
-.header__list{
+.header__items {}
+
+.header__list {
 	margin-top: 20px;
 	text-align: center;
 }
@@ -67,8 +65,7 @@ body{
 
 /*--------------------------------------------------------------*/
 
-.living-room__items {
-}
+.living-room__items {}
 
 .living-room__items p {
 	padding-bottom: 20px;
@@ -83,9 +80,8 @@ body{
 	padding-bottom: 35px;
 	width: 100%;
 }
-.living-room__text {
 
-}
+.living-room__text {}
 
 .living-room__subtitle {
 	font-weight: 600;
@@ -95,22 +91,25 @@ body{
 }
 
 
-.living-room__text-2{
+.living-room__text-2 {
 	padding-left: 45px;
 }
 
 
 /*--------------------------------------------------------------*/
-.page__inst{
+.page__inst {
 	background: rgba(30, 40, 50, 0.05);
 	margin: 90px 0;
 }
+
 .inst__container {
 	max-width: 1320px;
 }
+
 .inst__items {
 	padding: 70px 0 100px 0;
 }
+
 .inst__title {
 	color: rgb(0, 0, 0);
 	font-family: "Roboto";
@@ -121,29 +120,31 @@ body{
 	text-transform: capitalize;
 	margin-bottom: 60px;
 }
-.inst__list {
-	
-}
+
+.inst__list {}
+
 .inst__list a {
 	padding: 0 4px;
 }
+
 .inst__link {
 	display: inline;
-	width: 100%;
-	max-width: 200px;
+	
+	
 }
+
 /*--------------------------------------------------------------*/
 
-.page__krovato{
+.page__krovato {
 	margin-bottom: 40px;
 }
 
 .krovato__container {
 	max-width: 1320px;
 }
-.krovato__items {
-	
-}
+
+.krovato__items {}
+
 .krovato__title {
 	color: rgb(43, 41, 41);
 	font-size: 40px;
@@ -153,7 +154,7 @@ body{
 	margin-bottom: 30px;
 }
 
-.krovato__title span{
+.krovato__title span {
 	text-transform: uppercase;
 }
 
@@ -163,15 +164,17 @@ body{
 	padding-left: 60px;
 
 }
+
 .krovato__content {
 	vertical-align: top;
-    max-width: 270px;
-    display: inline-block;
-    text-align: center;
-    margin-right: 30px;
-	
+	max-width: 270px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+
 }
-.krovato__title-block{
+
+.krovato__title-block {
 	color: rgb(43, 41, 41);
 	font-size: 26px;
 	font-weight: 600;
@@ -189,7 +192,7 @@ body{
 }
 
 /*--------------------------------------------------------------*/
-.footer__button{
+.footer__button {
 	color: aqua;
 	text-shadow: 2px 2px 1px rgb(19, 19, 18);
 	font-size: 30px;
