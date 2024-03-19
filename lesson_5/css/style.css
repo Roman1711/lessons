@@ -99,17 +99,6 @@ body{
 	padding-left: 45px;
 }
 
-/*--------------------------------------------------------------*/
-.footer__button{
-	color: aqua;
-	text-shadow: 2px 2px 1px rgb(19, 19, 18);
-	font-size: 30px;
-	font-weight: 600;
-	display: inline-block;
-	background-color: blueviolet;
-	padding: 15px;
-	margin-bottom: 20px;
-}
 
 /*--------------------------------------------------------------*/
 .page__inst{
@@ -117,7 +106,7 @@ body{
 	margin: 90px 0;
 }
 .inst__container {
-	min-width: 1320px;
+	max-width: 1320px;
 }
 .inst__items {
 	padding: 70px 0 100px 0;
@@ -150,7 +139,7 @@ body{
 }
 
 .krovato__container {
-	min-width: 1320px;
+	max-width: 1320px;
 }
 .krovato__items {
 	
@@ -197,4 +186,16 @@ body{
 	color: rgb(43, 41, 41);
 	line-height: 187%;
 	text-align: center;
+}
+
+/*--------------------------------------------------------------*/
+.footer__button{
+	color: aqua;
+	text-shadow: 2px 2px 1px rgb(19, 19, 18);
+	font-size: 30px;
+	font-weight: 600;
+	display: inline-block;
+	background-color: blueviolet;
+	padding: 15px;
+	margin-bottom: 20px;
 }
