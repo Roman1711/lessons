@@ -183,7 +183,7 @@ body{
 	font-weight: 600;
 	line-height: 130%;
 	text-align: center;
-	text-wrap: nowrap;
+	white-space: nowrap;
 	margin-bottom: 35px;
 }
 
