@@ -121,12 +121,11 @@ body {
 	margin-bottom: 60px;
 }
 
-.inst__list {}
+.inst__list {
+	display: inline-block;
+}
 
 .inst__link {
-	display: inline;
-}
-.inst__link img{
 	padding: 0 4px;
 }
 
