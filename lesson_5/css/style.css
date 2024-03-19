@@ -37,20 +37,22 @@ body {
 
 .header__items {}
 
-.header__list {
+.header__list-item {
 	text-align: center;
 }
 
-.header__link {
+.header__list {
 	margin: 0 50px;
-	padding: 20px 40px;
 	display: inline-block;
+}
+
+.header__link {
+	padding: 20px 40px;
 	font-size: 30px;
 	background-color: blueviolet;
 	color: aqua;
 	text-shadow: 2px 2px 1px rgb(19, 19, 18);
 }
-
 
 /*--------------------------------------------------------------*/
 .title {
@@ -191,7 +193,7 @@ body {
 
 /*--------------------------------------------------------------*/
 
-.footer__container{
+.footer__container {
 	text-align: center;
 	margin-bottom: 20px;
 }
