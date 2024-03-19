@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+/*--------------------------------------------------------------*/
+body{
+	font-family: "Proxima Nova", sans-serif;
+	color : #2B2929;
+	font-weight: 400;
+	font-size: 16px;
+	background: rgba(30, 40, 50, 0.05);
+}
+
+
+[class*="__container"] {
+	max-width: 1070px; 
+	margin: 0px auto;
+	padding: 0 20px;
+}
+
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+/*--------------------------------------------------------------*/
+
+.header {
+}
+.header__container {
+}
+.header__items {
+	
+
+}
+
+.header__list{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.header__link {
+	margin: 0 50px;
+	padding: 20px 40px;
+	display: inline-block;
+	font-size: 30px;
+	background-color: blueviolet;
+	color: aqua;
+}
+
+
+/*--------------------------------------------------------------*/
+.title {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 120%;
+}
+
+.text {
+	line-height: 187%;
+}
+
+/*--------------------------------------------------------------*/
+
+.living-room__items {
+}
+
+.living-room__items p {
+	padding-bottom: 20px;
+}
+
+.living-room__title {
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+
+.living-room__image {
+	padding-bottom: 35px;
+	width: 100%;
+}
+.living-room__text {
+
+}
+
+.living-room__subtitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 140%;
+	padding: 20px 0 40px 0;
+}
+
+
+.living-room__text-2{
+	padding-left: 45px;
+}
+
+
+.footer__button{
+	color: aqua;
+	text-shadow: 2px 2px 1px rgb(19, 19, 18);
+	font-size: 30px;
+	font-weight: 600;
+	display: inline-block;
+	background-color: blueviolet;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------*/
+.page__inst{
+	background: rgba(30, 40, 50, 0.05);
+	margin-bottom: 30px;
+}
+.inst__container {
+	min-width: 1320px;
+}
+.inst__items {
+	padding: 100px 0;
+}
+.inst__title {
+	color: rgb(0, 0, 0);
+	font-family: "Roboto";
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 118%;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+.inst__list {
+	
+}
+.inst__list a {
+	padding: 0 4px;
+}
+.inst__link {
+	display: inline;
+	width: 100%;
+	max-width: 200px;
+}
+/*--------------------------------------------------------------*/
+
+.page__krovato{
+	margin-bottom: 40px;
+}
+
+.krovato__container {
+	min-width: 1320px;
+}
+.krovato__items {
+}
+.krovato__title {
+	color: rgb(43, 41, 41);
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 120%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+.krovato__block {
+	padding-left: 60px;
+
+}
+.krovato__content {
+	vertical-align: top;
+    max-width: 270px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+	
+}
+.krovato__title-block{
+	color: rgb(43, 41, 41);
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 130%;
+	text-align: center;
+	text-wrap: nowrap;
+	margin-bottom: 35px;
+}
+
+.krovato__text {
+	color: rgb(43, 41, 41);
+	line-height: 187%;
+	text-align: center;
+}
