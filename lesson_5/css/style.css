@@ -99,7 +99,7 @@ body{
 	padding-left: 45px;
 }
 
-
+/*--------------------------------------------------------------*/
 .footer__button{
 	color: aqua;
 	text-shadow: 2px 2px 1px rgb(19, 19, 18);
@@ -114,13 +114,13 @@ body{
 /*--------------------------------------------------------------*/
 .page__inst{
 	background: rgba(30, 40, 50, 0.05);
-	margin-bottom: 30px;
+	margin: 90px 0;
 }
 .inst__container {
 	min-width: 1320px;
 }
 .inst__items {
-	padding: 100px 0;
+	padding: 70px 0 100px 0;
 }
 .inst__title {
 	color: rgb(0, 0, 0);
@@ -153,6 +153,7 @@ body{
 	min-width: 1320px;
 }
 .krovato__items {
+	
 }
 .krovato__title {
 	color: rgb(43, 41, 41);
@@ -161,6 +162,10 @@ body{
 	line-height: 120%;
 	text-align: center;
 	margin-bottom: 30px;
+}
+
+.krovato__title span{
+	text-transform: uppercase;
 }
 
 
@@ -184,7 +189,8 @@ body{
 	line-height: 130%;
 	text-align: center;
 	white-space: nowrap;
-	margin-bottom: 35px;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 .krovato__text {
