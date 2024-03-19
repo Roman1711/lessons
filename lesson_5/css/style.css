@@ -122,11 +122,12 @@ body {
 }
 
 .inst__list {
+	font-size: 0;
 	display: inline-block;
 }
 
 .inst__link {
-	padding: 0 4px;
+	padding: 0 6px;
 }
 
 /*--------------------------------------------------------------*/
