@@ -45,14 +45,13 @@ body {
 	font-size: 0;
 }
 
-.header__list {
-	font-size: 45px;
-	font-weight: 500;
-}
+.header__list {}
 
 .header__link {
 	display: inline-block;
 	text-align: center;
+	font-size: 45px;
+	font-weight: 500;
 	margin: 0 70px;
 	background: rgb(30, 40, 50);
 	border-radius: 35px 10px;
@@ -206,7 +205,7 @@ body {
 	text-align: start;
 	max-width: 690px;
 	margin-right: 130px;
-	
+
 }
 
 .collections__title {
