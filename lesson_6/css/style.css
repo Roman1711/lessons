@@ -12,6 +12,7 @@ body {
 	color: rgb(43, 41, 41);
 	font-weight: 400;
 	font-size: 16px;
+	background: rgba(30, 40, 50, 0.05);
 	
 }
 
@@ -112,6 +113,7 @@ body {
 	background: url(../img/explore/background.png) center / cover;
 	font-family: "Quicksand", serif;
 	color: rgb(255, 255, 255);
+	margin-bottom: 100px;
 }
 .explore__container {
 	max-width: 1260px;
@@ -149,7 +151,9 @@ body {
 	border-radius: 8px;
 }
 .explore__btn {
-	padding: 11.5px 20px;
+	padding: 11.5px 20px 11.5px 35px;
+	background: url(../img/explore/icon.png) 10px 15px no-repeat ;
+	background-size: 17px 17px;
 }
 .explore__image {
 	max-width: 547px;
@@ -159,4 +163,87 @@ body {
 }
 .explore__image img{
 	width: 100%;
+}
+/*--------------------------------------------------------------*/
+
+.collections {
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
+	margin-bottom: 40px;
+	background: url(../img/collections/decor1.png) 100% 80% no-repeat,
+	url(../img/collections/decor2.png) 0 100% no-repeat;
+}
+.collections__container {
+	max-width: 1320px;
+	font-size: 0;
+}
+.collections__items {
+}
+.collections__block {
+	display: inline-block;
+    vertical-align: middle;
+	text-align: start;
+    max-width: 690px; 
+	margin-right: 80px;
+	margin-bottom: 20px;
+}
+.collections__title {
+	font-size: 74px;
+	font-weight: 300;
+	line-height: 0.74;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+.collections__text {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.83;
+	text-transform: capitalize;
+	margin-bottom: 80px;
+}
+.collections__button {
+	background: rgb(30, 40, 50);
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	font-size: 29px;
+	font-weight: 400;
+	line-height: 1.17;
+}
+.collections__btn {
+	background: url(../img/collections/icon-collection.png) 28px 22px no-repeat;
+	padding: 19px 26px 19px 64px;
+}
+
+.collections__image {
+	display: inline-block;
+    vertical-align: middle;
+	max-width: 425px;
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	border-radius: 160px 0px;
+}
+
+.collections__image img {
+	max-width: 425px;
+	width: 100%;
+	border-radius: 160px 0px;
+	margin: -20px 0 15px -15px;
+}
+
+/*--------------------------------------------------------------*/
+.footer {
+	background: rgba(30, 40, 50, 0.09);
+}
+.footer__container {
+	text-align: center;
+	font-size: 40px;
+	padding: 2px 0;
+}
+
+.footer__btn{
+	background: rgb(30, 40, 50);
+	color: rgb(255, 255, 255);
+	border-radius: 15px 5px;
+	padding: 10px 80px;
+	opacity: 0.9;
 }
