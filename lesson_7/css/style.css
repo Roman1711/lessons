@@ -274,6 +274,7 @@ h2 {
 	font-family: "Exo", sans-serif;
 	background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.99) 85.536%);
 	color: rgb(255, 255, 255);
+	margin-bottom: 100px;
 }
 
 .about__container {
@@ -284,7 +285,7 @@ h2 {
 .about__items {
 	font-size: 0;
 	padding: 180px 0;
-	
+
 }
 
 .about__title {
@@ -416,3 +417,273 @@ h2 {
 }
 
 /*=================================================================*/
+.game {
+	font-family: "Exo", sans-serif;
+}
+
+.game__container {
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.game__title {
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.16;
+	margin-bottom: 20px;
+}
+
+.game__items {
+	font-size: 0;
+	max-width: 1050px;
+	min-height: 525px;
+	background-color: #000;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.block {
+	background-color: blueviolet;
+	visibility: hidden;
+}
+
+.block-1 {
+	background-color: aqua;
+	width: 30px;
+	height: 30px;
+	visibility: visible;
+}
+
+.block-2 {
+	width: 30px;
+	height: 30px;
+}
+
+.block-1:hover~.block-2,
+.block-2:hover {
+	visibility: visible;
+}
+
+
+.block-3 {
+	width: 300px;
+	height: 30px;
+}
+
+.block-2:hover~.block-3,
+.block-3:hover {
+	visibility: visible;
+}
+
+.block-4 {
+	margin-top: -30px;
+	margin-left: 300px;
+	width: 30px;
+	height: 60px;
+}
+
+.block-3:hover~.block-4,
+.block-4:hover {
+	visibility: visible;
+}
+
+.block-5 {
+	margin-left: 300px;
+	width: 500px;
+	height: 30px;
+}
+
+.block-4:hover~.block-5,
+.block-5:hover {
+	visibility: visible;
+}
+
+.block-6 {
+	margin-top: -30px;
+	margin-left: 800px;
+	width: 30px;
+	height: 80px;
+}
+
+.block-5:hover~.block-6,
+.block-6:hover {
+	visibility: visible;
+}
+
+.block-7 {
+	margin-left: 800px;
+	width: 150px;
+	height: 30px;
+}
+
+.block-6:hover~.block-7,
+.block-7:hover {
+	visibility: visible;
+}
+
+.block-8 {
+	margin-top: -30px;
+	margin-left: 950px;
+	width: 30px;
+	height: 70px;
+}
+
+.block-7:hover~.block-8,
+.block-8:hover {
+	visibility: visible;
+}
+
+.block-9 {
+	margin-left: 100px;
+	width: 880px;
+	height: 30px;
+}
+
+.block-8:hover~.block-9,
+.block-9:hover {
+	visibility: visible;
+}
+
+.block-10 {
+	margin-left: 100px;
+	width: 30px;
+	height: 50px;
+}
+
+.block-9:hover~.block-10,
+.block-10:hover {
+	visibility: visible;
+}
+
+.block-11 {
+	margin-left: 100px;
+	width: 200px;
+	height: 30px;
+}
+
+.block-10:hover~.block-11,
+.block-11:hover {
+	visibility: visible;
+}
+
+.block-12 {
+	margin-top: -30px;
+	margin-left: 300px;
+	width: 30px;
+	height: 30px;
+}
+
+.block-11:hover~.block-12,
+.block-12:hover {
+	visibility: visible;
+}
+
+.block-13 {
+	margin-left: 300px;
+	width: 120px;
+	height: 30px;
+}
+
+.block-12:hover~.block-13,
+.block-13:hover {
+	visibility: visible;
+}
+
+.block-14 {
+	margin-top: -30px;
+	margin-left: 420px;
+	width: 30px;
+	height: 60px;
+}
+
+.block-13:hover~.block-14,
+.block-14:hover {
+	visibility: visible;
+}
+
+.block-15 {
+	margin-left: 420px;
+	width: 400px;
+	height: 30px;
+}
+
+.block-14:hover~.block-15,
+.block-15:hover {
+	visibility: visible;
+}
+
+.block-16 {
+	margin-top: -30px;
+	margin-left: 820px;
+	width: 30px;
+	height: 60px;
+}
+
+.block-15:hover~.block-16,
+.block-16:hover {
+	visibility: visible;
+}
+
+.block-17 {
+	margin-left: 820px;
+	width: 90px;
+	height: 30px;
+}
+
+.block-16:hover~.block-17,
+.block-17:hover {
+	visibility: visible;
+}
+
+.block-18 {
+	background-color: aqua;
+	margin-top: -30px;
+	margin-left: 910px;
+	width: 30px;
+	height: 30px;
+}
+
+.block-17:hover~.block-18,
+.block-18:hover {
+	visibility: visible;
+}
+
+.block-image {
+	background: url(../img/win.jpg) 0 0 / cover no-repeat;
+	margin-left: 600px;
+	visibility: hidden;
+	height: 100px;
+	width: 150px;
+}
+
+.block-18:hover~.block-image,
+.block-18:hover {
+	visibility: visible;
+}
+
+/*=================================================================*/
+
+.footer {
+	background: rgb(229, 229, 229);
+}
+
+.footer__container {
+	text-align: center;
+
+}
+
+.footer__title {
+	padding: 20px 0;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: black;
+	text-shadow: 2px 2px 5px #000;
+	text-transform: uppercase;
+}
+
+.footer__title:hover {
+	color: rgb(56, 53, 53);
+	text-shadow: 2px 2px 5px rgb(17, 15, 15);
+}
