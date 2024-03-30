@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,500,700&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+/*=================================================================*/
+body {
+	font-family: "Proxima Nova", sans-serif;
+	color: rgb(43, 41, 41);
+	font-weight: 400;
+	font-size: 20px;
+	background: rgba(30, 40, 50, 0.05);
+
+}
+
+
+[class*="__container"] {
+	max-width: 1070px;
+	margin: 0px auto;
+}
+
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+/*=================================================================*/
+.header {
+	background: #F8F8F8;
+}
+.header__container {
+	text-align: center;
+}
+.header__title {
+	padding: 20px 0;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+/*=================================================================*/
+
+.page {
+}
+.page__container {
+	border: 2px dotted black;
+	border-radius: 10px;
+	background: rgba(22, 27, 32, 0.05);
+	padding: 30px;
+}
+.items {
+}
+.items:not(:last-child) {
+    margin-bottom: 20px;
+}
+.items img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.items:nth-child(4) img{
+	margin-right: 17px;
+
+}
+
+.items:nth-child(13){
+	text-align: center;
+	font-size: 25px;
+}
+
+.items:nth-child(13) img{
+	margin-right: 90px;
+	max-width: 500px;
+}
+.items:nth-child(14){
+	font-size: 25px;
+	text-align: center;
+}
+.items:nth-child(14) img{
+	margin-right: 90px;
+	max-width: 500px;
+}
+
+.items:nth-child(14){
+	font-size: 25px;
+	text-align: center;
+}
+.items:nth-child(15) img{
+	margin-right: 90px;
+	max-width: 500px;
+}
+
+.text {
+	display: inline-block;
+}
+/*=================================================================*/
+.footer__container {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 40px;
+	font-weight: 700;
+}
