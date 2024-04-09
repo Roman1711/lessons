@@ -25,7 +25,20 @@ body {
 .wrapper {
 	overflow: clip;
 	min-height: 100%;
+	position: relative;
 }
+.wrapper::after{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -163px;
+	content: "";
+	background: url(../img/up.png) 0 0 no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+
 
 /*=================================================================*/
 
@@ -35,11 +48,10 @@ body {
 	background-color: #fff;
 	width: 100%;
 	z-index: 70;
-	
+
 }
 
-.header__container {
-}
+.header__container {}
 
 
 .header__button {
@@ -210,17 +222,18 @@ body {
 
 
 /*--------------------------------------------------------------*/
-.page {
-}
+.page {}
+
 .page__container {
-	padding-top: 200px;
+	padding-top: 150px;
 	font-size: 0;
 }
+
 .popular {
 	font-size: 20px;
 }
 
-.popular > *:not(:last-child){
+.popular>*:not(:last-child) {
 	margin-bottom: 40px;
 }
 
@@ -228,13 +241,15 @@ body {
 .popular__title {
 	font-size: 40px;
 	font-weight: 600;
-	line-height: 1.2; 
+	line-height: 1.2;
 }
+
 .popular__items {
 	display: inline-block;
 }
-.popular__block {
-}
+
+.popular__block {}
+
 .block {
 	position: relative;
 	max-width: 250px;
@@ -243,12 +258,13 @@ body {
 	box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25),
 				0px -4px 4px 0px rgba(0, 0, 0, 0.25)inset;
 }
-.block:hover{
+
+.block:hover {
 	box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.95),
-				0px -4px 4px 0px rgba(0, 0, 0, 0.95)inset;
+		0px -4px 4px 0px rgba(0, 0, 0, 0.95)inset;
 }
 
-.block::after{
+.block::after {
 	content: "";
 	background: url(../img/main/popular/arrow-icon.svg) 0 0 no-repeat;
 	width: 50px;
@@ -270,6 +286,7 @@ body {
 	top: 20px;
 	left: 20px;
 }
+
 .block__sub-title {
 	display: inline-block;
 	color: #B1B1B1;
@@ -277,18 +294,22 @@ body {
 	top: 20px;
 	right: 20px;
 }
-.block__image {
-}
-.image-img {
-}
+
+.block__image {}
+
+.image-img {}
 
 /*-----------------------------------------------------------------------------------*/
 
 .footer {
+	background-color: #fff;
 }
+
+
 .footer__container {
 	text-align: center;
 	font-size: 30px;
 	line-height: 1.4;
 	font-weight: 600;
+
 }
