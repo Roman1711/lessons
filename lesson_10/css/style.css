@@ -12,7 +12,6 @@ body {
 	font-weight: 400;
 	font-size: 20px;
 	background: rgba(30, 40, 50, 0.05);
-
 }
 
 
@@ -37,7 +36,6 @@ body {
 	background-color: #fff;
 	width: 100%;
 	z-index: 70;
-
 }
 
 .header__container {}
@@ -64,7 +62,6 @@ body {
 	width: 24px;
 	height: 24px;
 	background: url(../img/button/menu-catalog.svg);
-
 }
 
 .header__button:active::after {
@@ -115,7 +112,7 @@ body {
 
 .menu__link {
 	font-size: 20px;
-	padding: 10px 30px 10px 45px;
+	padding: 10px 30px 10px 35px;
 	position: relative;
 	min-width: 300px;
 	min-height: 60px;
@@ -143,7 +140,6 @@ body {
 	background: url(../img/menu/arrow-black.svg) 0 0 no-repeat;
 }
 
-/*  background: url(../img/menu/arrow-black.svg) 0 0 no-repeat; */
 
 .menu__img {
 	margin-right: 15px;
@@ -174,30 +170,31 @@ body {
 	width: 320px;
 	border-radius: 0 8px 8px 0;
 	padding: 8px 0;
-
-
+	overflow: auto;
 }
 
 .sub-menu__list {
 	font-weight: 400;
-	color: #2B2929;
 	font-size: 19px;
+	color: #2B2929;
 	line-height: 2.1;
 	padding: 0 20px 20px 30px;
+	height: 100%;
 }
 
 .sub-menu__list::before {
 	content: "";
 	position: absolute;
-	background: #FFBC57;
-	height: 97.4%;
+	border-left: 5px solid #ffbc57;
+	height: calc(100% - 16px);
 	width: 5px;
 	top: 8px;
 	left: 0;
 }
 
 
-.sub-menu__item {}
+.sub-menu__item {
+}
 
 .sub-menu__item:not(:last-child) {
 	margin-bottom: 10px;
@@ -215,19 +212,21 @@ body {
 
 .page__container {
 	padding-top: 150px;
-	font-size: 0;
+
 }
 
 .popular {
+	font-size: 0;
+}
+
+.popular>* {
 	font-size: 20px;
 }
 
-.popular>*:not(:last-child) {
-	margin-bottom: 40px;
-}
 
 
 .popular__title {
+	margin-bottom: 40px;
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 1.2;
@@ -235,22 +234,23 @@ body {
 
 .popular__items {
 	display: inline-block;
+	padding: 0 4px 24px;
 }
+
 
 .popular__block {}
 
 .block {
+	background: #FFF;
 	position: relative;
 	max-width: 250px;
 	min-height: 280px;
 	border-radius: 8px;
-	box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25),
-				0px -4px 4px 0px rgba(0, 0, 0, 0.25)inset;
 }
 
 .block:hover {
-	box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.95),
-		0px -4px 4px 0px rgba(0, 0, 0, 0.95)inset;
+	box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25),
+		0px -4px 4px 0px rgba(0, 0, 0, 0.25)inset;
 }
 
 .block::after {
@@ -263,10 +263,11 @@ body {
 	right: 20px;
 }
 
+/*
 .popular__items:not(:last-child) {
-	margin-right: 3px;
+	margin-right: 8px;
 }
-
+*/
 .block__title {
 	display: inline-block;
 	font-weight: 600;
@@ -284,7 +285,9 @@ body {
 	right: 20px;
 }
 
-.block__image {}
+.block__image img {
+	border-radius: 8px;
+}
 
 .image-img {}
 
