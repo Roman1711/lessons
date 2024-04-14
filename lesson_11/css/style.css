@@ -269,7 +269,7 @@ body {
 }
 
 .body-card:not(:last-child) {
-    margin-right: 15px;
+    margin: 0 15px 15px 0;
 }
 
 .body-card img {
@@ -327,7 +327,7 @@ body {
 }
 
 
-.body-car::after{
+.body-car::after {
     position: absolute;
     content: "";
     bottom: 40px;
@@ -338,8 +338,8 @@ body {
     background-size: 90px, 240px;
 }
 
-.body-car__part1:hover, 
-.body-car__part4:hover{
+.body-car__part1:hover,
+.body-car__part4:hover {
     transform: rotate(-180deg);
 }
 
@@ -628,4 +628,3 @@ body {
 
 
 /*==============================================================*/
-
