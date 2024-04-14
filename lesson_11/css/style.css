@@ -338,7 +338,7 @@ body {
     background-size: 90px, 240px;
 }
 
-.body-car__part1:hover,
+.body-car__part1:hover, 
 .body-car__part4:hover{
     transform: rotate(-180deg);
 }
@@ -628,9 +628,4 @@ body {
 
 
 /*==============================================================*/
-.footer {
-}
-.footer__container {
-}
-.footer__title {
-}
+
