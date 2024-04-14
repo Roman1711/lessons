@@ -252,7 +252,7 @@ body {
 }
 
 .cards__title {
-    color: white;
+    color: rgb(84, 189, 189);
     text-shadow: 2px 4px 1px rgb(30, 31, 29);
 }
 
@@ -326,6 +326,7 @@ body {
     height: 400px;
 }
 
+
 .body-car::after{
     position: absolute;
     content: "";
@@ -335,6 +336,11 @@ body {
     width: 200px;
     background: url(../img/formula.png) 0 0 no-repeat;
     background-size: 90px, 240px;
+}
+
+.body-car__part1:hover,
+.body-car__part4:hover{
+    transform: rotate(-180deg);
 }
 
 /*-----------------------------------------------------*/
@@ -347,8 +353,9 @@ body {
     height: 75px;
     background-color: #000;
     border-radius: 50%;
-    border: 10px solid rgb(61, 60, 60);
+    border: 5px dashed rgb(61, 60, 60);
     z-index: 15;
+    transition: all 0.8s;
 }
 
 
@@ -383,8 +390,9 @@ body {
     height: 75px;
     background-color: #000;
     border-radius: 50%;
-    border: 10px solid rgb(61, 60, 60);
+    border: 5px dashed rgb(61, 60, 60);
     z-index: 15;
+    transition: all 0.8s;
 }
 
 .body-car__part5 {
