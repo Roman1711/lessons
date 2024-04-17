@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,500,700&display=swap");
+
+@import url("reset.css");
+
+/*=================================================================*/
+body {
+    font-family: "Exo", sans-serif;
+    color: #2C2D35;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+[class*="__container"] {
+    max-width: 1290px;
+    margin: 0px auto;
+    padding: 0 20px;
+
+}
+
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+
+
+
+/*=================================================================*/
+.header {}
+
+.header__container {
+    padding: 20px 0;
+}
+
+.header__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*=================================================================*/
+.page {}
+
+.battle {
+    background-color: rgb(186, 186, 186);
+    padding: 140px 0;
+}
+
+.battle__container {}
+
+/*--------------------------------------------------*/
+
+.title {
+    padding-top: 40px;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.battle__title {
+    position: relative;
+    text-shadow: 2px 1px black;
+}
+
+.battle__title::before {
+    position: absolute;
+    content: "";
+    background: url(../img/arrow.png) no-repeat;
+    background-size: 120px 40px;
+    top: 35px;
+    left: 400px;
+    width: 200px;
+    height: 40px;
+    transition: all 0.8s ease;
+}
+
+
+.battle__title:hover::before {
+    transform: translate(-30px, 0);
+}
+
+/*--------------------------------------------------*/
+
+.battle__items {
+    position: relative;
+}
+
+
+@keyframes fadeInOut {
+
+    0%,
+    5% {
+        opacity: 1;
+    }
+
+    8%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.battle__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeInOut 4s infinite linear;
+    z-index: 10;
+    animation-play-state: paused;
+}
+
+.battle__items:hover .battle__image {
+    animation-play-state: running;
+}
+
+
+@keyframes fadeInOut {
+
+    0%,
+    5% {
+        opacity: 1;
+    }
+
+    8%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+.battle__image:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.battle__image:nth-child(2) {
+    animation-delay: 0.1428s;
+}
+
+.battle__image:nth-child(3) {
+    animation-delay: 0.2856s;
+}
+
+.battle__image:nth-child(4) {
+    animation-delay: 0.4284s;
+}
+
+.battle__image:nth-child(5) {
+    animation-delay: 0.5712s;
+}
+
+.battle__image:nth-child(6) {
+    animation-delay: 0.714s;
+}
+
+.battle__image:nth-child(7) {
+    animation-delay: 0.8568s;
+}
+
+.battle__image:nth-child(8) {
+    animation-delay: 0.9996s;
+}
+
+.battle__image:nth-child(9) {
+    animation-delay: 1.1424s;
+}
+
+.battle__image:nth-child(10) {
+    animation-delay: 1.2852s;
+}
+
+.battle__image:nth-child(11) {
+    animation-delay: 1.428s;
+}
+
+.battle__image:nth-child(12) {
+    animation-delay: 1.5708s;
+}
+
+.battle__image:nth-child(13) {
+    animation-delay: 1.7136s;
+}
+
+.battle__image:nth-child(14) {
+    animation-delay: 1.8564s;
+}
+
+.battle__image:nth-child(15) {
+    animation-delay: 1.9992s;
+}
+
+.battle__image:nth-child(16) {
+    animation-delay: 2.142s;
+}
+
+.battle__image:nth-child(17) {
+    animation-delay: 2.2848s;
+}
+
+.battle__image:nth-child(18) {
+    animation-delay: 2.4276s;
+}
+
+.battle__image:nth-child(19) {
+    animation-delay: 2.5704s;
+}
+
+.battle__image:nth-child(20) {
+    animation-delay: 2.7132s;
+}
+
+.battle__image:nth-child(21) {
+    animation-delay: 2.856s;
+}
+
+.battle__image:nth-child(22) {
+    animation-delay: 2.9988s;
+}
+
+.battle__image:nth-child(23) {
+    animation-delay: 3.1416s;
+}
+
+.battle__image:nth-child(24) {
+    animation-delay: 3.2844s;
+}
+
+.battle__image:nth-child(25) {
+    animation-delay: 3.4272s;
+}
+
+.battle__image:nth-child(26) {
+    animation-delay: 3.57s;
+}
+
+.battle__image:nth-child(27) {
+    animation-delay: 3.7128s;
+}
+
+.battle__image:nth-child(28) {
+    animation-delay: 3.8556s;
+}
+
+
+/*========================================================*/
+
+.cat {}
+
+.cat__container {
+    padding: 150px 0;
+
+}
+
+
+.cat__items {
+    position: relative;
+    animation: move 8s infinite linear;
+    animation-play-state: running;
+}
+
+.cat__items:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move {
+    0% {
+        translate: 1400px 0px;
+    }
+
+    100% {
+        translate: -300px 0px;
+    }
+}
+
+
+.cat__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeInOut 2s infinite;
+}
+
+.cat__image img {
+    width: 300px;
+    height: 150px;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    8.33% {
+        opacity: 1;
+    }
+
+    16.66%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.cat__items:hover .cat__image {
+    animation-play-state: paused;
+}
+
+
+.cat__image:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.cat__image:nth-child(2) {
+    animation-delay: 0.1667s;
+}
+
+.cat__image:nth-child(3) {
+    animation-delay: 0.3333s;
+}
+
+.cat__image:nth-child(4) {
+    animation-delay: 0.5s;
+}
+
+.cat__image:nth-child(5) {
+    animation-delay: 0.6667s;
+}
+
+.cat__image:nth-child(6) {
+    animation-delay: 0.8333s;
+}
+
+.cat__image:nth-child(7) {
+    animation-delay: 1s;
+}
+
+.cat__image:nth-child(8) {
+    animation-delay: 1.1667s;
+}
+
+.cat__image:nth-child(9) {
+    animation-delay: 1.3333s;
+}
+
+.cat__image:nth-child(10) {
+    animation-delay: 1.5s;
+}
+
+.cat__image:nth-child(11) {
+    animation-delay: 1.6667s;
+}
+
+.cat__image:nth-child(12) {
+    animation-delay: 1.8333s;
+}
+
+
+/*========================================================================*/
+
+.car {
+    background: #3b5e49;
+}
+
+.car__container {
+    padding: 30px 0;
+    position: relative;
+}
+
+.car__container::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 20px;
+    height: 400px;
+    background-color: #000;
+}
+
+
+
+
+.body-car {
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    animation: car 5s infinite linear;
+}
+
+
+
+@keyframes car {
+    0% {
+        translate: 1000px 0px;
+    }
+
+    70% {
+        translate: -308px 0px;
+
+    }
+
+    100% {
+        translate: -308px 0px;
+
+    }
+}
+
+
+.body-car::after {
+    position: absolute;
+    content: "";
+    bottom: 40px;
+    left: 426px;
+    height: 50px;
+    width: 200px;
+    background: url(../img/formula.png) 0 0 no-repeat;
+    background-size: 90px, 240px;
+}
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+
+@keyframes wheel {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: -360deg;
+    }
+}
+
+.body-car__part1 {
+    position: absolute;
+    left: 150px;
+    bottom: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 5px dashed rgb(61, 60, 60);
+    z-index: 15;
+    animation: wheel 4s linear infinite;
+}
+
+
+
+.body-car__part2 {
+    position: absolute;
+    left: 173px;
+    bottom: 43px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 15px double rgb(218, 218, 218);
+    z-index: 15;
+}
+
+.body-car__part3 {
+    position: absolute;
+    left: 183px;
+    bottom: 53px;
+    width: 10px;
+    height: 10px;
+    background-color: #ee0707;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+.body-car__part4 {
+    position: absolute;
+    right: 150px;
+    bottom: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 5px dashed rgb(61, 60, 60);
+    z-index: 15;
+    animation: wheel 4s linear infinite;
+}
+
+.body-car__part5 {
+    position: absolute;
+    right: 173px;
+    bottom: 43px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 15px double rgb(218, 218, 218);
+    z-index: 15;
+}
+
+.body-car__part6 {
+    position: absolute;
+    right: 183px;
+    bottom: 53px;
+    width: 10px;
+    height: 10px;
+    background-color: #ee0707;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+
+.body-car__part7 {
+    position: absolute;
+    left: 210px;
+    bottom: 33px;
+    width: 380px;
+    height: 10px;
+    background-color: #0f0f0f;
+    z-index: 9;
+}
+
+.body-car__part8 {
+    position: absolute;
+    right: 140px;
+    bottom: 35px;
+    width: 40px;
+    height: 60px;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.body-car__part9 {
+    position: absolute;
+    left: 83px;
+    bottom: 33px;
+    width: 77px;
+    height: 10px;
+    background-color: #363434;
+    border-radius: 70% 50% 0 0;
+    z-index: 5;
+}
+
+.body-car__part10 {
+    position: absolute;
+    left: 83px;
+    bottom: 33px;
+    width: 95px;
+    height: 40px;
+    background-color: #ebe4e4;
+    border-radius: 80% 0 0 0;
+    z-index: 4;
+}
+
+.body-car__part11 {
+    position: absolute;
+    left: 83px;
+    bottom: 33px;
+    width: 95px;
+    height: 55px;
+    background-color: #cf0f0f;
+    border-radius: 90% 0 0 0;
+    z-index: 3;
+}
+
+.body-car__part12 {
+    position: absolute;
+    left: 170px;
+    bottom: 43px;
+    width: 90px;
+    height: 50px;
+    background-color: #cf0f0f;
+    border-radius: 100% 0% 100% 0% / 15% 100% 0% 85%;
+    z-index: 3;
+}
+
+.body-car__part13 {
+    position: absolute;
+    left: 190px;
+    bottom: 43px;
+    width: 90px;
+    height: 50px;
+    background-color: #cf0f0f;
+    border-radius: 100% 0% 100% 0% / 15% 100% 0% 85%;
+    transform: skew(40deg);
+    z-index: 8;
+}
+
+.body-car__part14 {
+    position: absolute;
+    left: 302px;
+    bottom: 43px;
+    width: 344px;
+    height: 70px;
+    background-color: #e4dbdb;
+    border-radius: 53% 47% 0% 100% / 100% 60% 40% 0%;
+}
+
+
+
+.body-car__part15 {
+    position: absolute;
+    left: 270px;
+    bottom: 43px;
+    width: 160px;
+    height: 50px;
+    background-color: #cf0f0f;
+    transform: rotate(350deg) skew(60deg);
+
+}
+
+.body-car__part16 {
+    position: absolute;
+    left: 380px;
+    bottom: 43px;
+    width: 60px;
+    height: 90px;
+    background-color: #cf0f0f;
+    border-radius: 0% 100% 0% 100% / 100% 43% 57% 0%;
+}
+
+.body-car__part17 {
+    position: absolute;
+    left: 350px;
+    bottom: 43px;
+    width: 120px;
+    height: 70px;
+    background-color: #cf0f0f;
+    border-radius: 100% 0% 100% 0% / 41% 100% 0% 59%;
+
+}
+
+.body-car__part18 {
+    position: absolute;
+    left: 262px;
+    bottom: 79px;
+    width: 8px;
+    height: 12px;
+    background-color: #ebe4e4;
+    border-radius: 3px;
+    transform: rotate(-20deg);
+    z-index: 5;
+}
+
+.body-car__part19 {
+    position: absolute;
+    left: 264px;
+    bottom: 77px;
+    width: 6px;
+    height: 25px;
+    background-color: #111010;
+    border-radius: 3px;
+    transform: rotate(-10deg);
+
+}
+
+.body-car__part20 {
+    position: absolute;
+    left: 350px;
+    bottom: 100px;
+    width: 30px;
+    height: 30px;
+    background-color: #ebe4e4;
+    border-radius: 100% 0% 18% 82% / 100% 100% 0% 0%;
+
+}
+
+.body-car__part21 {
+    position: absolute;
+    left: 350px;
+    bottom: 106px;
+    width: 15px;
+    height: 15px;
+    background-color: #111010;
+    border-radius: 100% 25% 18% 82% / 100% 100% 25% 25%;
+    transform: rotate(-10deg);
+}
+
+.body-car__part22 {
+    position: absolute;
+    left: 355px;
+    bottom: 106px;
+    width: 15px;
+    height: 15px;
+    background-color: #111010;
+    border-radius: 50px 100px 100px 50px;
+}
+
+.body-car__part23 {
+    position: absolute;
+    left: 600px;
+    bottom: 120px;
+    width: 80px;
+    height: 40px;
+    background-color: #cf0f0f;
+    border-radius: 15px 15px 20px 1px;
+
+}
+
+.body-car__part24 {
+    position: absolute;
+    left: 630px;
+    bottom: 130px;
+    width: 50px;
+    height: 20px;
+    background-color: #ebe4e4;
+    border-radius: 15px 15px 30px 1px;
+}
+
+.body-car__part25 {
+    position: absolute;
+    left: 620px;
+    bottom: 80px;
+    width: 30px;
+    height: 50px;
+    background-color: #cf0f0f;
+    border-radius: 15px 1px 15px 1px;
+}
