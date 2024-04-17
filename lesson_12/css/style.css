@@ -267,11 +267,11 @@ body {
 
 @keyframes move {
     0% {
-        translate: 1400px 0px;
+        transform: translate(1400px 0px);
     }
 
     100% {
-        translate: -300px 0px;
+        transform: translate(-300px 0px);
     }
 }
 
@@ -392,17 +392,15 @@ body {
 
 @keyframes car {
     0% {
-        translate: 1000px 0px;
+        transform: translate(1000px, 0);
     }
 
     70% {
-        translate: -308px 0px;
-
+        transform: translate(-308px, 0);
     }
 
     100% {
-        translate: -308px 0px;
-
+        transform: translate(-308px, 0);
     }
 }
 
@@ -427,11 +425,11 @@ body {
 
 @keyframes wheel {
     0% {
-        rotate: 0deg;
+        transform: rotate(0deg);
     }
 
     100% {
-        rotate: -360deg;
+        transform: rotate(-360deg);
     }
 }
 
