@@ -267,11 +267,11 @@ body {
 
 @keyframes move {
     0% {
-        transform: translate(1400px);
+        transform: translate(1400px, 0);
     }
 
     100% {
-        transform: translate(-300px);
+        transform: translate(-300px, 0);
     }
 }
 
