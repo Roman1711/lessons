@@ -807,6 +807,10 @@ body {
     border-radius: 8px;
     background: #FFBC57;
     transition: 0.3s;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 126%;
 }
 
 .button-order__btn:hover {
@@ -815,13 +819,6 @@ body {
 
 .button-order__btn:active {
     background: #c4862a;
-}
-
-.button-order__text {
-    color: #FFF;
-    font-size: 19px;
-    font-weight: 600;
-    line-height: 126%;
 }
 
 .button-order__user {
