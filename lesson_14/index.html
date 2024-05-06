@@ -173,43 +173,30 @@
                             <div class="delivery">
                                 <h2 class="delivery__title title">Вибір способу доставки</h2>
                                 <div class="delivery__items">
-                                    <label class="delivery__radio">
-                                        <input type="radio" name="radio">
-                                        <div class="delivery__box box">
-                                            <span><img src="img/order/delivery/shop1.svg" alt="Самовивіз"
-                                                    class="box__image"></span>
-                                            <div class="box__column">
-                                                <h3 class="box__title">Самовивіз із магазину</h3>
-                                                <div class="box__subtitle">Бесплатно</div>
-                                            </div>
-                                        </div>
-                                    </label>
-                                    <label class="delivery__radio">
-                                        <input type="radio" name="radio">
-                                        <div class="delivery__box box">
-                                            <span>
-                                                <img src="img/order/delivery/np.svg" alt="Доставка Нова Пошта"
-                                                    class="box__image">
-                                            </span>
-                                            <div class="box__column">
-                                                <h3 class="box__title">Доставка Нова Пошта</h3>
-                                                <div class="box__subtitle">≈ від 500 грн</div>
-                                            </div>
-                                        </div>
-                                    </label>
-                                    <label class="delivery__radio">
-                                        <input type="radio" name="radio">
-                                        <div class="delivery__box box">
-                                            <span>
-                                                <img src="img/order/delivery/shop.svg" alt="Доставка кур'єром"
-                                                    class="box__image">
-                                            </span>
-                                            <div class="box__column">
-                                                <h3 class="box__title">Доставка кур'єром</h3>
-                                                <div class="box__subtitle">≈ від 200 грн</div>
-                                            </div>
-                                        </div>
-                                    </label>
+                                    <div class="delivery__item">
+                                        <input checked type="radio" name="delivery" id="pickup">
+                                        <label for="pickup">
+                                            <img src="img/order/delivery/shop1.svg" alt="Самовивіз">
+                                            <span>Самовивіз із магазину</span>
+                                            <span>Бесплатно</span>
+                                        </label>
+                                    </div>
+                                    <div class="delivery__item">
+                                        <input type="radio" name="delivery" id="new">
+                                        <label for="new">
+                                            <img src="img/order/delivery/np.svg" alt="Нова Пошт">
+                                            <span>Доставка Нова Пошта</span>
+                                            <span>≈ від 500 грн</span>
+                                        </label>
+                                    </div>
+                                    <div class="delivery__item">
+                                        <input type="radio" name="delivery" id="courier">
+                                        <label for="courier">
+                                            <img src="img/order/delivery/shop.svg" alt="Кур'єр">
+                                            <span>Доставка кур'єром</span>
+                                            <span>≈ від 200 грн</span>
+                                        </label>
+                                    </div>
                                 </div>
                                 <div class="delivery__map map">
                                     <a href="https://www.google.com/maps/place/%D0%86%D0%B7%D1%8F%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D0%B2%D1%83%D0%BB%D0%BE%D0%BA,+52,+%D0%9A%D0%B8%D1%97%D0%B2,+03169/@50.3959715,30.4192021,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4c96ea800a585:0x11de5378d70c8f68!8m2!3d50.3959682!4d30.424073!16s%2Fg%2F11j6kmf1hr?entry=ttu"
@@ -236,7 +223,7 @@
                                         <span class="form-payment__text">Готівкою при отриманні (Післясплата)</span>
                                     </label>
                                     <label for="pay-2" class="form-payment__label">
-                                        <input id="pay-2" class="form-payment__input" type="radio" name="pay">
+                                        <input id="pay-2" class="form-payment__input" checked type="radio" name="pay">
                                         <span class="form-payment__text">Оплата карткою на сайті</span>
                                         <img src="img/order/payment/master-card-logo.svg" alt=""
                                             class="form-payment__image">
@@ -290,7 +277,7 @@
         </main>
         <footer class="footer">
             <div class="footer__container">
-                <h4 class="footer__title">© KROVATO - Технології сну - 2024. Всі права захищені.</h4>
+                <h3 class="footer__title">© KROVATO - Технології сну - 2024. Всі права захищені.</h3>
             </div>
         </footer>
     </div>

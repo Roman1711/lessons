@@ -15,7 +15,6 @@ body {
     max-width: 1320px;
     margin: 0px auto;
     padding: 0 15px;
-
 }
 
 
@@ -24,7 +23,6 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 .wrapper>main {
@@ -100,8 +98,6 @@ body {
     gap: 10px;
 }
 
-
-
 .social-header__icon {
     transition: 0.4s;
 }
@@ -122,13 +118,10 @@ body {
 }
 
 .lang-header:hover {
-    color: #f19a17;
-    ;
+    color: #2B2929;
 }
 
 /*------------------------------------------*/
-
-
 
 .middle-header {
     border-bottom: 2px solid #F8F8F8;
@@ -258,7 +251,6 @@ body {
     color: #e6a647;
 }
 
-
 .call-icon {
     transition: 0.3s;
 }
@@ -275,8 +267,6 @@ body {
 .selected-2 {
     transition: 0.3s;
 }
-
-
 
 .selected-1:hover,
 .selected-2:hover {
@@ -328,8 +318,6 @@ body {
 
 }
 
-
-
 .menu-bottom-header__list {
     display: flex;
     gap: 40px;
@@ -357,16 +345,10 @@ body {
 }
 
 /*==================================================================*/
-
-.page {
-    background: #F8F8F8;
-}
-
 .order {
     padding: 30px 0;
+    background: #F8F8F8;
 }
-
-.order__container {}
 
 .order__title {
     padding: 30px 0;
@@ -380,32 +362,18 @@ body {
 .order__items {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3px;
     max-width: 740px;
-    padding: 30px;
     border-radius: 8px;
     background: #FFF;
     box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
 }
 
-
-
 .info {
-    padding: 20px 0;
+    padding: 30px;
     position: relative;
+    border-bottom: 5px solid #f8f8f8;
 }
-
-.info::before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -30px;
-    width: 130%;
-    height: 5px;
-    background-color: #F8F8F8;
-    z-index: 1;
-}
-
 
 .title {
     color: #2B2929;
@@ -415,8 +383,9 @@ body {
 }
 
 .title:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
+
 
 .info__title {
     line-height: 187.5%;
@@ -433,9 +402,6 @@ body {
     background: url(../img/order/info/info.svg) center / contain no-repeat;
 }
 
-
-.info__form {}
-
 .form-info {
     display: flex;
     flex-wrap: wrap;
@@ -445,7 +411,6 @@ body {
 .form-info:not(:last-child) {
     margin-bottom: 20px;
 }
-
 
 .form-info__row {
     display: flex;
@@ -473,10 +438,6 @@ body {
 }
 
 /*-------------------------------*/
-.info__checkbox {}
-
-.checkbox-info {}
-
 .checkbox-info__label {
     position: relative;
     cursor: pointer;
@@ -491,7 +452,6 @@ body {
     height: 0;
     opacity: 0;
 }
-
 
 .checkbox-info__input:focus-visible+.checkbox-info__text {
     outline: 1px solid #f19a17;
@@ -523,21 +483,9 @@ body {
 
 /*------------------------------------------------------------------------------*/
 .delivery {
-    padding: 20px 0;
-    position: relative;
+    padding: 30px;
+    border-bottom: 5px solid #f8f8f8;
 }
-
-.delivery::before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -30px;
-    width: 130%;
-    height: 5px;
-    background-color: #F8F8F8;
-    z-index: 1;
-}
-
 
 .delivery__title {
     line-height: 187.5%;
@@ -555,77 +503,95 @@ body {
 }
 
 
-
+/*------------------------------------------*/
 .delivery__items {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 25px;
+
+}
+
+.delivery__items:not(:last-child) {
     margin-bottom: 30px;
 }
 
-.delivery__radio {
+.delivery__item {
+    flex: 1 1 210px;
+
+}
+
+.delivery__item input {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.delivery__item label {
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.delivery__radio input {
-    display: none;
-}
-
-.delivery__radio input:checked+.delivery__box {
-    border: 3px solid #FFBC57;
-    transform: scale(1.06);
-
-}
-
-.delivery__radio input:checked+.delivery__box .box__title {
-    color: #FFBC57;
-}
-
-.delivery__radio input+.delivery__box:hover {
-    border: 3px solid #FFBC57;
-}
-
-.delivery__box {
-    border-radius: 8px;
-    border: 3px solid #F8F8F8;
-    background: #FFF;
-    border-radius: 5px;
-    width: 210px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    padding: 20px 40px;
-    white-space: nowrap;
+    border-radius: 8px;
+    border: 3px solid #f8f8f8;
+    padding: 20px 10px;
+    line-height: 1.875;
     transition: 0.4s;
 }
 
-.box {}
-
-.box__image{
+.delivery__item label:hover {
+    border: 3px solid #ffbc5746;
+    cursor: pointer;
 }
 
-
-
-.box__column {}
-
-.box__title {
-    color: #2B2929;
-    line-height: 187.5%;
+.delivery__item label img {
+    margin-bottom: 10px;
+    position: relative;
 }
 
-.box__subtitle {
-    font-size: 15px;
-    line-height: 146.667%;
+.delivery__item label::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/order/delivery/check.svg);
+    background-size: cover;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.delivery__item label span {
+    display: block;
     text-align: center;
 }
 
-/*-------------------------------------------------------------------*/
-.delivery__map {}
+.delivery__item label span:last-child {
+    color: #535353;
+    font-size: 15px;
+    line-height: 146.666667%;
+    /* 22/15 */
+}
 
+.delivery__item input:checked+label {
+    border: 3px solid #ffbc57;
+    transform: scale(1.05);
+    color: #ffbc57;
+    ;
+}
+
+.delivery__item input:checked+label img {
+    opacity: 0;
+}
+
+.delivery__item input:checked+label::before {
+    opacity: 1;
+}
+
+/*-------------------------------------------------------------------*/
 .map {
     border-radius: 8px;
     background: #F8F8F8;
@@ -678,7 +644,6 @@ body {
 
 .map__button:hover {
     background: #e6a647;
-
 }
 
 .map__button:active {
@@ -692,7 +657,6 @@ body {
     width: 24px;
     height: 24px;
     background: url(../img/order/map/map-button.svg) center / cover no-repeat;
-
 }
 
 .map__btn {
@@ -704,22 +668,9 @@ body {
 
 /*---------------------------------------------------------------*/
 .payment {
-    padding: 20px 0;
-    position: relative;
+    padding: 30px;
+    border-bottom: 5px solid #f8f8f8;
 }
-
-.payment::before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -30px;
-    width: 130%;
-    height: 5px;
-    background-color: #F8F8F8;
-    z-index: 1;
-}
-
-
 
 .payment__title {
     line-height: 187.5%;
@@ -737,9 +688,6 @@ body {
     ;
 }
 
-
-.payment__form {}
-
 .form-payment {
     display: flex;
     flex-direction: column;
@@ -747,15 +695,12 @@ body {
     gap: 20px;
 }
 
-
 .form-payment__label {
     position: relative;
     display: flex;
     gap: 10px;
     cursor: pointer;
 }
-
-
 
 .form-payment__input {
     position: absolute;
@@ -766,24 +711,26 @@ body {
     opacity: 0;
 }
 
-
 .form-payment__input:focus-visible+.form-payment__text {
     outline: 1px solid #f19a17;
     outline-offset: 5px;
 }
-
 
 .form-payment__input:checked+.form-payment__text::before {
     background: url(../img/order/payment/checked.svg) center no-repeat;
     border: #FFBC57;
 }
 
-
 .form-payment__text {
     line-height: 187.5%;
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    transition: 0.3s;
+}
+
+.form-payment__text:hover {
+    color: #FFBC57;
 }
 
 .form-payment__text::before {
@@ -795,10 +742,10 @@ body {
     border-radius: 50%;
 }
 
-
 /*-----------------------------------------------------------------*/
-.comments {}
-
+.comments {
+    padding: 30px;
+}
 
 .comments__title {
     line-height: 187.5%;
@@ -816,21 +763,19 @@ body {
     ;
 }
 
-
-.comments__form {}
-
 .comments__form::placeholder {
     line-height: 187.5%;
-
 }
 
 .comments__text {
     padding: 10px 20px;
-    width: 680px;
     height: 150px;
     border-radius: 8px;
     border: 1px solid #D1D5D5;
     background: #FFF;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 400px;
 }
 
 .comments__text:hover {
@@ -866,13 +811,11 @@ body {
 
 .button-order__btn:hover {
     background: #e6a647;
-
 }
 
 .button-order__btn:active {
     background: #c4862a;
 }
-
 
 .button-order__text {
     color: #FFF;
