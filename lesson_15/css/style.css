@@ -457,7 +457,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 10px 90px;
+        gap: 20px 90px;
     }
     .middle-header__button{
         order: 2;
@@ -511,7 +511,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 10px;
+        gap: 20px 10px;
     }
     
 }
