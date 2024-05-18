@@ -93,7 +93,6 @@ body {
     gap: 20px;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-
 }
 
 .style__item {
@@ -169,14 +168,18 @@ body {
     grid-column: span 2;
 }
 
-@media (max-width: 867.98px) {
+@media (max-width: 891.98px) {
+    .style__box {
+        grid-template-columns:  300px 1fr 300px;
+    }
+
+}
+@media (max-width: 751.98px) {
     .style__box {
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     }
-
-    .style__item {
+    .style__item{
         grid-column: span 2;
-        grid-row: span 2;
     }
 
 }
