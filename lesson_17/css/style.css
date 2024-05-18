@@ -306,11 +306,19 @@ body {
     width: 100%;
 }
 
+
 .popular__image img {
     aspect-ratio: 260 / 220;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+@media (max-width: 579.98px) {
+    .popular__image img {
+        border-radius: 8px;
+        aspect-ratio: 370 / 220;
+    }
+
 }
 
 
