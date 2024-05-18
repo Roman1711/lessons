@@ -169,7 +169,7 @@ body {
     grid-column: span 2;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 867.98px) {
     .style__box {
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     }
@@ -180,6 +180,7 @@ body {
     }
 
 }
+
 
 .style__image {
     border-radius: 20px;
