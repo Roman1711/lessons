@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 22</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__title">Урок 22</h1>
+            </div>
+        </header>
+        <main class="page">
+            <section class="lesson">
+                <div class="lesson__container">
+                    <h2 class="lesson__title">JavaScript частина 2</h2>
+                    <article class="lesson__items">
+                        <h3 class="lesson__example">Задача №1</h3>
+                        <div class="lesson__question">Що потрапить в консоль?</div>
+                            <div class="lesson__list">
+                                let someVar = 0; <br>
+                                ++someVar; <br>
+                                if (someVar) { <br>
+                                console.log(someVar); <br>
+                                }
+                            </div>                                 
+                        <div class="lesson__answer">Відповідь: <span> "++" - інкремент (додає одиницю до числа). 
+                            В результаті задачі в консоль потрапить "1".</span>
+                        </div>
+                    </article>
+                    <article class="lesson__items">
+                        <h3 class="lesson__example">Задача №2</h3>
+                        <div class="lesson__question">За допомогою циклу FOR виведіть в консоль 10 рядків:</div>
+                        <div class="lesson__answer">Відповідь: <br> 
+                            <span>
+                                for (let i = 1; i <= 10; i++) {  <br>
+                                console.log(`Пункт №${i}`);
+                                }
+                        </span>
+                        </div>
+                    </article>
+                    <article class="lesson__items">
+                        <h3 class="lesson__example">Задача №3</h3>
+                        <div class="lesson__question">Що потрапить в консоль?</div>
+                            <div class="lesson__list">
+                                if (2 * 20 <= 10 || 30 / 2 < 5 && 10 <= "10" || 20 === "20") {
+                                    console.log('000');
+                                }
+                            </div>                                 
+                        <div class="lesson__answer">Відповідь: <span> В результаті обчислення ні одна умова не виконується (False). В консоль нічого не потрапить. </span>
+                        </div>
+                    </article>
+                    <article class="lesson__items">
+                        <h3 class="lesson__example">Задача №4</h3>
+                        <div class="lesson__question">
+                            Створіть функцію, яка повертає результат ділення числа a на число b з додаванням рядка
+                            "Результат ділення: "
+                            Викличте функцію передаючі різні значення, у тому числі не передаючи зовсім.
+                            Функція не має повертати NaN, Infinite або помилку 
+                        </div>
+                        <div class="lesson__answer">Відповідь: <br>
+                            <span>
+                                function divide(a = 1, b = 1) { <br>
+                                    if (typeof a !== 'number' || typeof b !== 'number') { <br>
+                                        return "Результат ділення: Аргументи повинні бути числами"; <br>
+                                    } <br>
+                                    if (b === 0) { <br>
+                                        return "Результат ділення: Ділення на нуль неможливе"; <br>
+                                    } <br>
+                                    let result = a / b; <br>
+                                    return `Результат ділення: ${result}`; <br>
+                                } <br>
+                            </span>
+                            Наприклад: <span>console.log(divide(80, 4)); // Результат ділення: 20</span>
+                        </div>
+                    </article>
+                    <article class="lesson__items">
+                        <h3 class="lesson__example">Задача №5</h3>
+                        <div class="lesson__question">Створіть масив даних - 5 елементів, один з яких число 10
+                            Обробіть масив за допомогою методу перебору
+                            Перевіряйте елемент на відповідність числу 10, та у разі відповідності, виводьте в консоль</div>                            
+                        <div class="lesson__answer">Відповідь: <br>
+                            <span> 
+                                const array = [1, 3, 10, 81, 6]; <br>
+                                array.forEach(element => { <br>
+                                    if (element === 10) { <br>
+                                        console.log(element); <br>
+                                    } <br>
+                                });
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <h2 class="footer__title">2024</h2>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
